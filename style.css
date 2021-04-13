@@ -14,6 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
+    perspective: 1000px;
 }
 
 .bg {
@@ -26,9 +27,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform-style: preserve-3d;
 }
 
 .logo {
     width: 200px;
     border-radius: 5px;
+    transform: translateZ(180px);
 }
